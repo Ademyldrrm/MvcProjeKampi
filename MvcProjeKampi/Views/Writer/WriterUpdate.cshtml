@@ -1,0 +1,30 @@
+﻿@model EntityLayer.Concrete.Writer
+@{
+    ViewBag.Title = "WriterUpdate";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<br />
+<h2>Yazar Düzenleme sayfası</h2>
+<div>
+@using (Html.BeginForm("WriterUpdate","Writer",FormMethod.Post))
+            {
+    @Html.HiddenFor(x=>x.WriterID)
+    @Html.Label("Yazar Adı")
+    @Html.TextBoxFor(x => x.WriterName, new { @class = "form-control" })
+    @Html.ValidationMessageFor(x => x.WriterName)
+    <br />
+    @Html.Label("Yazar Soyadı")
+    @Html.TextBoxFor(x => x.WriterSurName, new { @class = "form-control" })
+    @Html.ValidationMessageFor(x => x.WriterSurName)
+    <br />
+    @Html.Label("Yazar Mail")
+    @Html.TextBoxFor(x => x.WriterMail, new { @class = "form-control" })
+    <br />
+    @Html.Label("Yazar Resim")
+    @Html.TextBoxFor(x => x.WriterImage, new { @class = "form-control" })
+
+    <br />
+    <button class="btn btn-primary">Kaydet</button> 
+    }
+</div>
+           
