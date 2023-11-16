@@ -84,6 +84,14 @@
     <Compile Include="Migrations\202311161901310_mig_migrationstatus.designer.cs">
       <DependentUpon>202311161901310_mig_migrationstatus.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202311162036272_mig_contentstatusadd.cs" />
+    <Compile Include="Migrations\202311162036272_mig_contentstatusadd.designer.cs">
+      <DependentUpon>202311162036272_mig_contentstatusadd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202311162039001_mig_headingStatus.cs" />
+    <Compile Include="Migrations\202311162039001_mig_headingStatus.designer.cs">
+      <DependentUpon>202311162039001_mig_headingStatus.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -120,6 +128,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202311161901310_mig_migrationstatus.resx">
       <DependentUpon>202311161901310_mig_migrationstatus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202311162036272_mig_contentstatusadd.resx">
+      <DependentUpon>202311162036272_mig_contentstatusadd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202311162039001_mig_headingStatus.resx">
+      <DependentUpon>202311162039001_mig_headingStatus.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

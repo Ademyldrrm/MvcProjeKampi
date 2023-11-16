@@ -17,3 +17,5 @@ C:\Users\AdemYildirim\source\repos\MvcProjeKampi\DataAccessLayer\obj\Debug\DataA
 C:\Users\AdemYildirim\source\repos\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_mig3.resources
 C:\Users\AdemYildirim\source\repos\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_mig4.resources
 C:\Users\AdemYildirim\source\repos\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_migrationstatus.resources
+C:\Users\AdemYildirim\source\repos\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_contentstatusadd.resources
+C:\Users\AdemYildirim\source\repos\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_headingStatus.resources

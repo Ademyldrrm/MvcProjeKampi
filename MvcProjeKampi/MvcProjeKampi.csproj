@@ -2285,8 +2285,8 @@
     <Content Include="Views\Writer\WriterUpdate.cshtml" />
     <Content Include="Views\Heading\Index.cshtml" />
     <Content Include="Views\Heading\HeadingAdd.cshtml" />
-    <Content Include="Views\Heading\ContentByHeading.cshtml" />
     <Content Include="Views\Content\ContentByHeading.cshtml" />
+    <Content Include="Views\Heading\HeadingUpdate.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
