@@ -60,9 +60,17 @@ namespace MvcProjeKampi.Controllers
             return View(value);
         }
         [HttpPost]
-        public ActionResult HeadingUpdate()
+        public ActionResult HeadingUpdate(Heading heading)
         {
-            return View();
+            hm.HeadingUpdate(heading);
+            return RedirectToAction("Index");
+        }
+        public ActionResult HeadingDelete(int id)
+        {
+            var values = hm.GetByID(id);
+            values.HeadingStatus = false;
+            hm.HeadingDelete(values);
+            return RedirectToAction("Index");
         }
     }
 }

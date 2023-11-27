@@ -1,21 +1,22 @@
-﻿@model EntityLayer.Concrete.Heading 
+﻿@model EntityLayer.Concrete.Heading
 @{
     ViewBag.Title = "HeadingUpdate";
     Layout = "~/Views/Shared/_AdminLayout.cshtml";
 }
 
 <h2>Başlık güncelleme Sayfası</h2>
-@using (Html.BeginForm("HeadingUpdate","Heading",FormMethod.Post))
-            {
-                <div class="form-group">
-                    @Html.HiddenFor(x=>x.HeadingID)
-                    @Html.Label("Başlık Adı")
-                    @Html.TextBoxFor(x=>x.HeadingName, new { @class = "form-control" })
-                    <br />
-                    @Html.DropDownListFor(x=>x.CategoryID,(List<SelectListItem>)ViewBag.vlc,new {@class="form-control" })
-                    <br />
-                    <button class="btn btn-primary"> Güncelle</button>
+@using (Html.BeginForm("HeadingUpdate", "Heading", FormMethod.Post))
+{
+<div class="form-group">
+    @Html.HiddenFor(x => x.HeadingID)
+    @Html.Label("Başlık Adı")
+    @Html.TextBoxFor(x => x.HeadingName, new { @class = "form-control" })
+    @Html.HiddenFor(x => x.HeadingDate)
+    <br />
+    @Html.DropDownListFor(x => x.CategoryID, (List<SelectListItem>)ViewBag.vlc, new { @class = "form-control" })
+    <br />
+    <button class="btn btn-primary"> Güncelle</button>
 
-                </div>
-            }
+</div>
+}
 
