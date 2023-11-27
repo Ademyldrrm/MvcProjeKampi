@@ -21,3 +21,4 @@ C:\Users\AdemYildirim\source\repos\MvcProjeKampi\DataAccessLayer\obj\Debug\DataA
 C:\Users\AdemYildirim\source\repos\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_headingStatus.resources
 C:\Users\AdemYildirim\source\repos\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_message_class.resources
 C:\Users\AdemYildirim\source\repos\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_contactdate.resources
+C:\Users\AdemYildirim\source\repos\MvcProjeKampi\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig_image.resources

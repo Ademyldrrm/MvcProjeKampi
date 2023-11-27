@@ -143,6 +143,8 @@
     <Compile Include="Controllers\CategoryController.cs" />
     <Compile Include="Controllers\ContactController.cs" />
     <Compile Include="Controllers\ContentController.cs" />
+    <Compile Include="Controllers\ErrorPage404Controller.cs" />
+    <Compile Include="Controllers\GaleryController.cs" />
     <Compile Include="Controllers\HeadingController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\MessageController.cs" />
@@ -2008,6 +2010,17 @@
     <Content Include="Templates\AdminLTE-3.0.4\plugins\toastr\toastr.min.css" />
     <Content Include="Templates\AdminLTE-3.0.4\plugins\toastr\toastr.min.js" />
     <Content Include="Templates\AdminLTE-3.0.4\starter.html" />
+    <Content Include="Templates\colorlib-error-404-10\css\style.css" />
+    <Content Include="Templates\colorlib-error-404-10\img\bg.jpg" />
+    <Content Include="Templates\colorlib-error-404-10\index.html" />
+    <Content Include="Templates\colorlib-error-404-10\readme.txt" />
+    <Content Include="Templates\image\8a9758f3-city-3430-163cc469939.jpg" />
+    <Content Include="Templates\image\berlin.jpeg" />
+    <Content Include="Templates\image\eyfel.jpeg" />
+    <Content Include="Templates\image\images.jpeg" />
+    <Content Include="Templates\image\indir.jpeg" />
+    <Content Include="Templates\image\kız kulesi.jpeg" />
+    <Content Include="Templates\image\Tokyo.jpeg" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -2300,6 +2313,8 @@
     <Content Include="Views\Message\NewMessage.cshtml" />
     <Content Include="Views\Message\GetInMessageDetails.cshtml" />
     <Content Include="Views\Message\GetSendBoxMessageDetails.cshtml" />
+    <Content Include="Views\ErrorPage404\Page404.cshtml" />
+    <Content Include="Views\Galery\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
