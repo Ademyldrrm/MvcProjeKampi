@@ -23,6 +23,11 @@ namespace BusinessLayer.Concrete
             return _headingDal.List();
         }
 
+        public List<Heading> GetAllByWriter()
+        {
+            return _headingDal.List(x => x.WriterID == 4);
+        }
+
         public Heading GetByID(int id)
         {
             return _headingDal.Get(x=>x.HeadingID==id);
